@@ -1,0 +1,34 @@
+doctype html
+html(lang='pt-BR')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Welcome to Watstock Beta
+    // Latest compiled and minified CSS
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(href='css/style.css', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='css/font-awesome.min.css')
+    script(src='js/jquery-2.1.1.min.js')
+    // Latest compiled and minified JavaScript
+    script(src='js/bootstrap.min.js')
+  body.login_page(style='background-image:url(img/login_bg.jpg)')
+    section.page-wrapper
+      .login_form_wrapper
+        .logo_file
+          img(src='img/logo-white.png', width='200', alt='')
+        form.user_login
+          .form-group
+            .user_logo
+              img(src='img/user.png', width='56')
+          .form-group
+            .custom_inp
+              input(type='email', placeholder='Email')
+              i.ico.ic-message
+          .form-group
+            .custom_inp
+              input(type='password', placeholder='Password')
+              i.ico.ic-lock
+          .form-group
+            button.btn.login_btn SIGN IN
+            a(href='#') Forgot password?
