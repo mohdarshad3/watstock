@@ -1,0 +1,25 @@
+{
+  "name": "watstock",
+  "version": "1.0.0",
+  "description": "Watstock FTP ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohdarshad3/watstock.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Git",
+    "Gulp"
+  ],
+  "author": "Dreams Steps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohdarshad3/watstock/issues"
+  },
+  "homepage": "https://github.com/mohdarshad3/watstock#readme"
+}
